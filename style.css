@@ -1,0 +1,157 @@
+* {
+    font-family: roboto, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header,
+.hero,
+.cta {
+    padding: 0 10%;
+}
+
+header,
+.hero,
+footer {
+    background: #1f2937;
+}
+
+header {
+    display: flex;
+    color: #e5e7eb;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    line-height: 200%;
+}
+header a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 14px;
+    margin: 0 10px;
+}
+
+.hero {
+    color: #e5e7eb;
+    display: flex;
+    gap: 10px;
+}
+.hero > * {
+    flex: 1;
+    margin: 40px 0;
+}
+.hero__text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.hero h2 {
+    font-weight: 48px;
+    color: #f9faf8;
+}
+.hero p {
+    font-size: 12px;
+}
+.hero button {
+    background: #3882f6;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 4px 15px;
+    justify-content: flex-start;
+}
+.hero__img {
+    background: #858c9b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.main {
+    padding: 0 15%;
+}
+
+.content {
+    text-align: center;
+    padding-bottom: 45px;
+}
+.content h3 {
+    padding: 20px 0;
+}
+.main__flex-container {
+    display: flex;
+    gap: 15px;
+}
+.main__flex-item {
+    border-radius: 5px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    text-align-last: center;
+}
+.main__image {
+    height: 200px;
+    width: 250px;
+    border: 3px #3882f6 solid;
+    border-radius: 8px;
+}
+
+.quote {
+    background: #e5e7eb;
+    padding: 45px 0;
+}
+.quote-quote {
+    font-size: 15px;
+    font-style: italic;
+    font-weight: lighter;
+}
+.quote-author {
+    font-weight: bold;
+    font-size: 12px;
+    text-align: end;
+}
+
+.cta {
+    margin: 45px 0;
+    color: #ffffff;
+}
+.cta-container {
+    background: #3882f6;
+    border-radius: 8px;
+    display: flex;
+    padding: 30px 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+.cta-text h4{
+    font-size: 14px;
+}
+.cta-text p{
+    font-size: 12px;
+}
+.cta button {
+    border: 1px #ffffff solid;
+    border-radius: 5px;
+    color: #ffffff;
+    background: #3882f6;
+    padding: 4px 15px;
+    font-size: 12px;
+}
+
+footer {
+    font-size: 12px;
+    align-items: center;
+    text-align: center;
+    padding: 20px 0;
+    color: #ffffff;
+}
